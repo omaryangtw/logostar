@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "/src/views/Home.vue";
 
 let history = createWebHistory();
 let routes = [
@@ -28,7 +27,6 @@ let routes = [
     name: "Order",
     component: () => import("../views/Order.vue"),
   },
-  
 ];
 
 export default createRouter({ history, routes });

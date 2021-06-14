@@ -1,13 +1,7 @@
-<template>
-  About
-</template>
+<template>About</template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

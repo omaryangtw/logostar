@@ -1,13 +1,7 @@
-<template>
-  Service
-</template>
+<template>Service</template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

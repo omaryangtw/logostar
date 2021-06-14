@@ -3,80 +3,40 @@
     <div class="container m-auto">
       <div class="flex">
         <div class="flex-none w-16 h-16"></div>
-        <div class="flex-grow h-16 ">
+        <div class="flex-grow h-16">
           <div class="flex justify-around items-center">
             <router-link
-              class="
-                text-gray-300
-                hover:bg-gray-700 hover:text-white
-                px-3
-                py-2
-                rounded-md
-                text-2xl
-                font-bold
-              "
+              class="px-3 py-2 rounded-md text-lg font-bold"
               :to="{ name: 'Home' }"
             >
-              <font-awesome-icon icon="user-secret" />Home</router-link
+              首頁</router-link
             >
             /
             <router-link
-              class="
-                text-gray-300
-                hover:bg-gray-700 hover:text-white
-                px-3
-                py-2
-                rounded-md
-                text-2xl
-                font-bold
-              "
+              class="px-3 py-2 rounded-md text-lg font-bold"
               :to="{ name: 'Trademark' }"
             >
-              <font-awesome-icon icon="user-secret" />Trademark</router-link
+              商標小知識</router-link
             >
             /
             <router-link
-              class="
-                text-gray-300
-                hover:bg-gray-700 hover:text-white
-                px-3
-                py-2
-                rounded-md
-                text-2xl
-                font-bold
-              "
+              class="px-3 py-2 rounded-md text-lg font-bold"
               :to="{ name: 'Service' }"
             >
-              <font-awesome-icon icon="user-secret" />Service</router-link
+              服務介紹</router-link
             >
             /
             <router-link
-              class="
-                text-gray-300
-                hover:bg-gray-700 hover:text-white
-                px-3
-                py-2
-                rounded-md
-                text-2xl
-                font-bold
-              "
+              class="px-3 py-2 rounded-md text-lg font-bold"
               :to="{ name: 'About' }"
             >
-              <font-awesome-icon icon="user-secret" />About</router-link
+              關於Logostar</router-link
             >
             /
             <router-link
-              class="
-                text-gray-300
-                hover:bg-gray-700 hover:text-white
-                px-3
-                py-2
-                rounded-md
-                text-2xl
-                font-bold
-              "
+              class="px-3 py-2 rounded-md text-lg font-bold"
               :to="{ name: 'Order' }"
-              >Order</router-link
+              >聯繫我們</router-link
             >
           </div>
         </div>
