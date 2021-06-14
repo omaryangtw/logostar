@@ -14,9 +14,9 @@
             /
             <router-link
               class="px-3 py-2 rounded-md text-lg font-bold"
-              :to="{ name: 'Trademark' }"
+              :to="{ name: 'About' }"
             >
-              商標小知識</router-link
+              關於Logostar</router-link
             >
             /
             <router-link
@@ -28,15 +28,16 @@
             /
             <router-link
               class="px-3 py-2 rounded-md text-lg font-bold"
-              :to="{ name: 'About' }"
+              :to="{ name: 'Trademark' }"
             >
-              關於Logostar</router-link
+              商標小知識</router-link
             >
             /
             <router-link
               class="px-3 py-2 rounded-md text-lg font-bold"
               :to="{ name: 'Order' }"
-              >聯繫我們</router-link
+            >
+              聯繫我們</router-link
             >
           </div>
         </div>
