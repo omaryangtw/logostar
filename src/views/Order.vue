@@ -143,7 +143,7 @@
                 </td>
               </tr>
               <tr>
-                <th>電話(室話)</th>
+                <th>電話(室話)&nbsp;&nbsp;&nbsp;</th>
                 <td>
                   <div class="form-content" id="phone">
                     <input
@@ -196,7 +196,16 @@
                 </td>
               </tr>
               <tr>
-                <th>FB粉絲頁/IG 名稱</th>
+                <th>
+                  <span style="color: #3b5998">
+                    <font-awesome-icon :icon="['fab', 'facebook-square']"
+                  /></span>
+                  FB粉絲頁&nbsp;／&nbsp;
+                  <span style="color: #8a3ab9"
+                    ><font-awesome-icon :icon="['fab', 'instagram']"
+                  /></span>
+                  IG 名稱
+                </th>
                 <td>
                   <div class="form-content">
                     <input
@@ -210,7 +219,12 @@
                 </td>
               </tr>
               <tr>
-                <th>Line ID</th>
+                <th>
+                  <span style="color: #00b900">
+                    <font-awesome-icon :icon="['fab', 'line']" />
+                  </span>
+                  Line ID
+                </th>
                 <td>
                   <div class="form-content">
                     <input

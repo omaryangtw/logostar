@@ -6,39 +6,46 @@
         <div class="flex-grow h-16">
           <div class="flex justify-around items-center">
             <router-link
-              class="px-3 py-2 rounded-md text-lg font-bold"
+              class="px-3 py-2 text-xl font-bold grid"
               :to="{ name: 'Home' }"
             >
-              首頁</router-link
-            >
+              <div>首頁</div>
+              <div class="text-sm font-light justify-self-center">HOME</div>
+            </router-link>
             /
             <router-link
-              class="px-3 py-2 rounded-md text-lg font-bold"
+              class="px-3 py-2 text-xl font-bold grid"
               :to="{ name: 'About' }"
             >
-              關於Logostar</router-link
-            >
+              <div>關於LOGOSTAR</div>
+              <div class="text-sm font-light justify-self-center">ABOUT</div>
+            </router-link>
             /
             <router-link
-              class="px-3 py-2 rounded-md text-lg font-bold"
+              class="px-3 py-2 text-xl font-bold grid"
               :to="{ name: 'Service' }"
             >
-              服務介紹</router-link
-            >
+              <div>服務介紹</div>
+              <div class="text-sm font-light justify-self-center">SERVICE</div>
+            </router-link>
             /
             <router-link
-              class="px-3 py-2 rounded-md text-lg font-bold"
+              class="px-3 py-2 text-xl font-bold grid"
               :to="{ name: 'Trademark' }"
             >
-              商標小知識</router-link
-            >
+              <div>商標小知識</div>
+              <div class="text-sm font-light justify-self-center">
+                TRADEMARK
+              </div>
+            </router-link>
             /
             <router-link
-              class="px-3 py-2 rounded-md text-lg font-bold"
+              class="px-3 py-2 text-xl font-bold grid"
               :to="{ name: 'Order' }"
             >
-              聯繫我們</router-link
-            >
+              <div>聯繫我們</div>
+              <div class="text-sm font-light justify-self-center">CONTACT</div>
+            </router-link>
           </div>
         </div>
         <div class="flex-none w-16 h-16"></div>
