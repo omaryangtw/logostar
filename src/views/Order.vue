@@ -274,14 +274,12 @@ export default {
   },
   methods: {
     sendEmail(e) {
-      console.log(this.email);
-      emailjs.init("user_drYeCXvkjUo72SeIjPobS");
       emailjs
         .send(
-          "service_5ts85fa",
-          "template_wepy8nq",
+          import.meta.env.VITE_SERVICE_ID,
+          import.meta.env.VITE_TEMPLATE_ID,
           { to_name: this.email, from_name: this.name },
-          "user_drYeCXvkjUo72SeIjPobS"
+          import.meta.env.VITE_USER_ID
         )
         .then(
           (result) => {

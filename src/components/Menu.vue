@@ -2,7 +2,6 @@
   <div>
     <div class="container m-auto">
       <div class="flex">
-        <div class="flex-none w-16 h-16"></div>
         <div class="flex-grow h-16">
           <div class="flex justify-around items-center">
             <router-link
@@ -48,7 +47,6 @@
             </router-link>
           </div>
         </div>
-        <div class="flex-none w-16 h-16"></div>
       </div>
     </div>
     <router-view />
