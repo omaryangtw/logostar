@@ -61,8 +61,8 @@
           </div>
 
           <div class="col-span-12 justify-self-center bg-green-300 p-4">
-            <a href="/order" class="text-2xl bg-green-300"
-              >服務申請請點這裡 ></a
+            <a target="_blank" href="/order" class="text-2xl bg-green-300"
+              >服務申請，請點擊這裡 ></a
             >
           </div>
         </div>
@@ -82,7 +82,7 @@
       <h2 class="text-2xl font-semibold text-center">專人對應</h2>
       <img src="../assets/img12.png" alt="" class="mx-auto w-32" />
     </div>
-    <div class="col-span-3 bg-gray-100 border-2 border-dotted ">
+    <div class="col-span-3 bg-gray-100 border-2 border-dotted">
       <h2 class="text-2xl m-4 leading-10">
         <span class="text-purple-700">LOGO</span>
         <span>STAR</span>
@@ -92,7 +92,7 @@
 
     <div class="col-span-4 my-3"></div>
 
-    <div class="col-span-3 bg-gray-100 border-2 border-dotted ">
+    <div class="col-span-3 bg-gray-100 border-2 border-dotted">
       <h2 class="text-2xl m-4 leading-10">
         我們知道你想了解大致上的費用，我們會根據您初步的需求說明，提供您可能的預算範圍。
       </h2>
@@ -108,7 +108,7 @@
       <h2 class="text-2xl font-semibold text-center">事前調查</h2>
       <img src="../assets/img14.png" alt="" class="mx-auto w-32" />
     </div>
-    <div class="col-span-3 bg-gray-100 border-2 border-dotted ">
+    <div class="col-span-3 bg-gray-100 border-2 border-dotted">
       <h2 class="text-2xl m-4 leading-10">
         在LOGO設計之前，就先對文字名稱做事前調查，若發現有類似名稱存在，就可以提前更改。同時，設計師的LOGO圖案設計，也都會經過商標代理人事前審查，再做提案。
       </h2>
@@ -116,7 +116,7 @@
 
     <div class="col-span-4 my-3"></div>
 
-    <div class="col-span-3 bg-gray-100 border-2 border-dotted ">
+    <div class="col-span-3 bg-gray-100 border-2 border-dotted">
       <h2 class="text-2xl m-4 leading-10">
         <span class="text-purple-700">LOGO</span>
         <span>STAR</span>
@@ -133,7 +133,7 @@
       <h2 class="text-2xl font-semibold text-center">LOGO製作完成</h2>
       <img src="../assets/img16.png" alt="" class="mx-auto w-32" />
     </div>
-    <div class="col-span-3 bg-gray-100 border-2 border-dotted ">
+    <div class="col-span-3 bg-gray-100 border-2 border-dotted">
       <h2 class="text-2xl m-4 leading-10">
         以最有效率方式取得商標為前提，進行LOGO設計，所有的設計提案都有商標代理人與設計師的一致共識，您可以安心使用
         <span class="text-purple-700">LOGO</span>
@@ -171,29 +171,52 @@
     </div>
 
     <div class="col-span-4 grid grid-cols-3">
-        <div class="col-span-1 justify-self-center bg-blue-400 w-11/12 p-2 rounded-lg">
-            <h2 class="text-center text-2xl text-white">商標授權合約</h2>
-        </div>
-        <div class="col-span-1 justify-self-center bg-yellow-400 w-11/12 p-2 rounded-lg">
-            <h2 class="text-center text-2xl text-red-600">各國商標查詢申請</h2>
-        </div>
-        <div class="col-span-1 justify-self-center bg-green-400 w-11/12 p-2 rounded-lg">
-            <h2 class="text-center text-2xl text-purple-800">商標侵權法律諮詢</h2>
-        </div>
+      <div
+        class="
+          col-span-1
+          justify-self-center
+          bg-blue-400
+          w-11/12
+          p-2
+          rounded-lg
+        "
+      >
+        <h2 class="text-center text-2xl text-white">商標授權合約</h2>
+      </div>
+      <div
+        class="
+          col-span-1
+          justify-self-center
+          bg-yellow-400
+          w-11/12
+          p-2
+          rounded-lg
+        "
+      >
+        <h2 class="text-center text-2xl text-red-600">各國商標查詢申請</h2>
+      </div>
+      <div
+        class="
+          col-span-1
+          justify-self-center
+          bg-green-400
+          w-11/12
+          p-2
+          rounded-lg
+        "
+      >
+        <h2 class="text-center text-2xl text-purple-800">商標侵權法律諮詢</h2>
+      </div>
     </div>
 
     <div class="col-span-4 flex items-center mt-10">
       <img class="m-2 w-8" alt="logo_tiny" src="../assets/logo-tiny.png" />
-      <span class="text-xl">
-        高雄、屏東、台南可安排親訪您的公司/店面討論
-        </span
-      >
+      <span class="text-xl"> 高雄、屏東、台南可安排親訪您的公司/店面討論 </span>
     </div>
-    <span class="col-span-4 text-xl">也歡迎預約諮詢服務，親至台南市安平區本事務所辦公室。</span>
+    <span class="col-span-4 text-xl"
+      >也歡迎預約諮詢服務，親至台南市安平區本事務所辦公室。</span
+    >
   </div>
-
-    
-
 </template>
 
 <script>

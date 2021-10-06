@@ -13,7 +13,6 @@
         </p>
       </div>
 
-
       <div class="col-span-5 justify-self-center">
         <form @submit.prevent="sendEmail" accept-charset="utf-8" class="">
           <input
@@ -36,16 +35,16 @@
                       <option value="">▼ 服務需求</option>
                       <option value="Logo設計">Logo設計</option>
                       <option value="商標註冊申請">商標註冊申請</option>
-                      <option value="Logo設計 + 商標註冊申請">Logo設計 + 商標註冊申請</option>
+                      <option value="Logo設計 + 商標註冊申請">
+                        Logo設計 + 商標註冊申請
+                      </option>
+                      <option value="" disabled>———————</option>
+
                       <option value="公司/商號設立登記 + 商標註冊申請申請">
                         公司/商號設立登記 + 商標註冊申請申請
                       </option>
-                      <option value="平面設計">
-                        平面設計
-                      </option>
-                      <option value="其他">
-                        其他
-                      </option>
+                      <option value="平面設計">平面設計</option>
+                      <option value="其他">其他</option>
                     </select>
                   </div>
                 </td>
