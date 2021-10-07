@@ -1,261 +1,200 @@
 <template>
-  <section id="form_area" class="contents">
-    <div class="grid grid-cols-5">
-      <div class="col-span-1"></div>
-      <div class="col-span-2 text-lg">
-        <div class="flex">
-          <i class="fa fa-thumbs-o-up"></i>
-          <h1 class="ico">聯絡我們：</h1>
-        </div>
-        <p class="form_lead">
-          請填寫下列表單資料，我們將與您聯繫<br />
-          需求內容 <span class="text-red-500"> ＊</span>必填
-        </p>
-      </div>
-
-      <div class="col-span-5 justify-self-center">
-        <form @submit.prevent="sendEmail" accept-charset="utf-8" class="">
-          <input
-            type="hidden"
-            name="page_flow"
-            id="page_flow"
-            value="confirm"
-          />
-
-          <!-- お客様情報 -->
-          <div class="container">
-            <table class="border-2 w-full">
-              <tr>
-                <th class="font-semibold">
-                  服務需求<span class="req text-red-500">＊</span>
-                </th>
-                <td>
-                  <div class="form-content">
-                    <select id="service" name="service">
-                      <option value="">▼ 服務需求</option>
-                      <option value="Logo設計">Logo設計</option>
-                      <option value="商標註冊申請">商標註冊申請</option>
-                      <option value="Logo設計 + 商標註冊申請">
-                        Logo設計 + 商標註冊申請
-                      </option>
-                      <option value="" disabled>———————</option>
-
-                      <option value="公司/商號設立登記 + 商標註冊申請申請">
-                        公司/商號設立登記 + 商標註冊申請申請
-                      </option>
-                      <option value="平面設計">平面設計</option>
-                      <option value="其他">其他</option>
-                    </select>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>
-                  公司/商號/事業名稱<span class="req text-red-500">＊</span>
-                </th>
-                <td>
-                  <div class="form-content">
-                    <input
-                      type="text"
-                      name="company_name"
-                      id="company_name"
-                      class="size_m"
-                      value=""
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>負責人<span class="req text-red-500">＊</span></th>
-                <td>
-                  <div class="form-content" id="name">
-                    <span class="in_text">姓&nbsp;</span>
-                    <input
-                      type="text"
-                      name="name_last"
-                      id="name_last"
-                      class="size_s"
-                      value=""
-                    />
-                    <span class="in_text">　名&nbsp;</span>
-                    <input
-                      type="text"
-                      name="name_first"
-                      id="name_first"
-                      class="size_s"
-                      value=""
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>聯絡人<span class="req text-red-500">＊</span></th>
-                <td>
-                  <div class="form-content" id="name_kana">
-                    <span class="in_text">姓&nbsp;</span>
-                    <input
-                      type="text"
-                      name="name_last_kana"
-                      id="name_last_kana"
-                      class="size_s"
-                      value=""
-                    />
-                    <span class="in_text">　名&nbsp;</span>
-                    <input
-                      type="text"
-                      name="name_first_kana"
-                      id="name_first_kana"
-                      class="size_s"
-                      value=""
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>通訊地址<span class="req text-red-500">＊</span></th>
-                <td>
-                  <div class="form-content">
-                    <input
-                      type="text"
-                      id="address"
-                      name="address"
-                      value=""
-                      class="size_m"
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>電話(手機)<span class="req text-red-500">＊</span></th>
-                <td>
-                  <div class="form-content" id="phone">
-                    <input
-                      type="text"
-                      name="mobile"
-                      id="mobile"
-                      class="size_s"
-                      maxlength="10"
-                      value=""
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>電話(室話)&nbsp;&nbsp;&nbsp;</th>
-                <td>
-                  <div class="form-content" id="phone">
-                    <input
-                      type="text"
-                      name="phone_top"
-                      id="phone_top"
-                      class="size_s"
-                      maxlength="3"
-                      size="3"
-                      value=""
-                    />
-                    &nbsp;-&nbsp;
-                    <input
-                      type="text"
-                      name="phone_bot"
-                      id="phone_bot"
-                      class="size_s"
-                      maxlength="8"
-                      value=""
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>E-mail</th>
-                <td>
-                  <div class="form-content">
-                    <input
-                      type="text"
-                      name="email"
-                      id="email"
-                      class="size_m"
-                      value=""
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>公司網站</th>
-                <td>
-                  <div class="form-content">
-                    <input
-                      type="text"
-                      name="company_url"
-                      id="company_url"
-                      value=""
-                      class="size_m"
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>
-                  <span style="color: #3b5998">
-                    <font-awesome-icon :icon="['fab', 'facebook-square']"
-                  /></span>
-                  FB粉絲頁&nbsp;／&nbsp;
-                  <span style="color: #8a3ab9"
-                    ><font-awesome-icon :icon="['fab', 'instagram']"
-                  /></span>
-                  IG 名稱
-                </th>
-                <td>
-                  <div class="form-content">
-                    <input
-                      type="text"
-                      name="fb_ig"
-                      id="fb_ig"
-                      value=""
-                      class="size_m"
-                    />
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th>
-                  <span style="color: #00b900">
-                    <font-awesome-icon :icon="['fab', 'line']" />
-                  </span>
-                  Line ID
-                </th>
-                <td>
-                  <div class="form-content">
-                    <input
-                      type="text"
-                      name="line_id"
-                      id="line_id"
-                      value=""
-                      class="size_m"
-                    />
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="button-area text-center">
-            <span class="confirm button"
-              ><input type="submit" value="確認送出" class="my-4"
-            /></span>
-          </div>
-
-          <!-- 利用規約 -->
-
-          <!-- /terms -->
-
-          <!-- プライバシーポリシー -->
-
-          <!-- /terms -->
-        </form>
-      </div>
-      <div class="col-span-1"></div>
+  <div class="max-w-screen-lg mx-auto">
+    <div class="col-span-12 my-3 mx-2">
+      聯絡我們： 請填寫下列表單資料，我們將與您聯繫
+      <br />
+      需求內容
+      <span class="text-red-500">*</span> 必填
     </div>
-  </section>
+
+    <div class="grid grid-cols-12 mx-2">
+      <div class="col-span-3 border bg-gray-100 p-2">
+        服務需求 <span class="text-red-500">＊</span>
+      </div>
+      <div class="col-span-9 p-2 border">
+        <select v-model="service" id="service" name="service">
+          <option value="">▼ 服務需求</option>
+          <option value="Logo設計">Logo設計</option>
+          <option value="商標註冊申請">商標註冊申請</option>
+          <option value="Logo設計 + 商標註冊申請">
+            Logo設計 + 商標註冊申請
+          </option>
+          <option value="" disabled>———————</option>
+
+          <option value="公司/商號設立登記 + 商標註冊申請">
+            公司/商號設立登記 + 商標註冊申請
+          </option>
+          <option value="平面設計">平面設計</option>
+          <option value="其他">其他</option>
+        </select>
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        公司/商號/事業名稱 <span class="text-red-500">＊</span>
+      </div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="company" type="text" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        負責人 <span class="text-red-500">＊</span>
+      </div>
+      <div class="col-span-9 p-2 border">
+        <span>姓</span> <input v-model="surname" type="text" />
+        <span>名</span>
+        <input v-model="name" type="text" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        聯絡人 <span class="text-red-500">＊</span>
+        <span
+          ><button
+            @click="repeat"
+            class="bg-green-400 p-1 rounded font-bold text-white"
+          >
+            同上
+          </button></span
+        >
+      </div>
+      <div class="col-span-9 p-2 border">
+        <span>姓</span> <input v-model="contact_surname" type="text" />
+        <span>名</span>
+        <input v-model="contact_name" type="text" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        通訊地址 <span class="text-red-500">＊</span>
+      </div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="address" type="text" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        手機 <span class="text-red-500">＊</span>
+      </div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="mobile" type="tel" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">市話</div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="phone" type="tel" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">E-mail</div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="email" type="email" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">公司網站</div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="website" type="url" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        <span style="color: #3b5998">
+          <font-awesome-icon :icon="['fab', 'facebook-square']"
+        /></span>
+        FB粉絲頁
+      </div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="facebook" type="url" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        <span style="color: #8a3ab9"
+          ><font-awesome-icon :icon="['fab', 'instagram']" /></span
+        >IG 名稱
+      </div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="instagram" type="url" />
+      </div>
+      <div class="col-span-3 border bg-gray-100 p-2">
+        <span style="color: #00b900">
+          <font-awesome-icon :icon="['fab', 'line']" /> </span
+        >Line ID
+      </div>
+      <div class="col-span-9 p-2 border">
+        <input v-model="line" type="text" />
+      </div>
+      <div
+        v-if="required"
+        class="col-span-12 mx-auto text-xl bg-red-500 p-2 text-white"
+      >
+        請將必填資訊完整填入
+      </div>
+      <button
+        @click="check"
+        class="p-4 col-span-12 bg-blue-500 text-white font-bold my-3"
+      >
+        確認送出
+      </button>
+    </div>
+  </div>
+
+  <div
+    v-if="modal"
+    class="
+      modal
+      h-screen
+      w-full
+      fixed
+      left-0
+      top-0
+      flex
+      justify-center
+      items-center
+      bg-black bg-opacity-50
+    "
+  >
+    <!-- modal -->
+    <div class="bg-white rounded shadow-lg w-10/12 md:w-2/3">
+      <!-- modal header -->
+      <div class="border-b px-4 py-2 flex">
+        <h3 class="font-semibold text-lg">確認送出</h3>
+      </div>
+      <!-- modal body -->
+      <div class="p-3 grid grid-cols-2 md:grid-cols-3">
+        <p>服務需求:</p>
+        <p class="md:col-span-2">{{ service }}</p>
+        <p>公司/商號/事業名稱:</p>
+        <p class="md:col-span-2">{{ company }}</p>
+        <p>負責人:</p>
+        <p class="md:col-span-2">{{ surname }}{{ name }}</p>
+        <p>聯絡人:</p>
+        <p class="md:col-span-2">{{ contact_surname }}{{ contact_name }}</p>
+        <p>通訊地址:</p>
+        <div class="md:col-span-2">{{ address }}</div>
+        <p>手機:</p>
+        <p class="md:col-span-2">{{ mobile }}</p>
+        <p v-if="phone != ''">市話:</p>
+        <p v-if="phone != ''" class="md:col-span-2">{{ phone }}</p>
+        <p v-if="email != ''">E-mail:</p>
+        <p v-if="email != ''" class="md:col-span-2">{{ email }}</p>
+        <p v-if="website != ''">公司網站:</p>
+        <p v-if="website != ''" class="md:col-span-2">{{ website }}</p>
+        <p v-if="facebook != ''">FB粉絲頁:</p>
+        <p v-if="facebook != ''" class="md:col-span-2">{{ facebook }}</p>
+        <p v-if="instagram != ''">IG 名稱:</p>
+        <p v-if="instagram != ''" class="md:col-span-2">{{ instagram }}</p>
+        <p v-if="line != ''">Line ID:</p>
+        <p v-if="line != ''" class="md:col-span-2">{{ line }}</p>
+      </div>
+      <div class="flex justify-end items-center w-100 border-t p-3">
+        <button
+          @click="modal = false"
+          class="
+            bg-red-600
+            hover:bg-red-700
+            px-3
+            py-1
+            rounded
+            text-white
+            mr-1
+            close-modal
+          "
+        >
+          取消
+        </button>
+        <button
+          @click="sendEmail"
+          class="bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-white"
+        >
+          送出
+        </button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -264,29 +203,78 @@ export default {
   name: "Order",
   data() {
     return {
-      email: "abc",
-      name: "bbc",
-      start: "fff",
-      time: "time",
+      modal: false,
+      required: false,
+      service: "",
+      company: "",
+      surname: "",
+      name: "",
+      contact_surname: "",
+      contact_name: "",
+      address: "",
+      mobile: "",
+      phone: "",
+      email: "",
+      website: "",
+      facebook: "",
+      instagram: "",
+      line: "",
     };
   },
   methods: {
-    sendEmail(e) {
+    sendEmail() {
       emailjs
         .send(
           import.meta.env.VITE_SERVICE_ID,
           import.meta.env.VITE_TEMPLATE_ID,
-          { to_name: this.email, from_name: this.name },
+          {
+            service: this.service,
+            company: this.company,
+            surname: this.surname,
+            name: this.name,
+            contact_surname: this.contact_surname,
+            contact_name: this.contact_name,
+            address: this.address,
+            mobile: this.mobile,
+            phone: this.phone,
+            email: this.email,
+            website: this.website,
+            facebook: this.facebook,
+            instagram: this.instagram,
+            line: this.line,
+          },
           import.meta.env.VITE_USER_ID
         )
         .then(
           (result) => {
             console.log("SUCCESS!", result.status, result.text);
+            this.$router.push({ name: "Thank" });
           },
           (error) => {
             console.log("FAILED...", error);
           }
         );
+    },
+    check() {
+      if (
+        this.service === "▼ 服務需求" ||
+        this.company === "" ||
+        (this.surname === "" && this.name === "") ||
+        (this.contact_surname === "" && this.contact_name === "") ||
+        this.address === "" ||
+        this.mobile === ""
+      ) {
+        this.required = true;
+        setTimeout(() => {
+          this.required = false;
+        }, 1500);
+      } else {
+        this.modal = true;
+      }
+    },
+    repeat() {
+      this.contact_surname = this.surname;
+      this.contact_name = this.name;
     },
   },
 };

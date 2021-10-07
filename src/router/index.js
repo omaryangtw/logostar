@@ -27,6 +27,11 @@ let routes = [
     name: "Order",
     component: () => import("../views/Order.vue"),
   },
+  {
+    path: "/thankyou",
+    name: "Thank",
+    component: () => import("../views/Thank.vue"),
+  },
 ];
 
 export default createRouter({ history, routes });

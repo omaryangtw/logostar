@@ -10,9 +10,9 @@ import {
   faInstagram,
   faLine,
 } from "@fortawesome/free-brands-svg-icons";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDoubleRight, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-library.add(faFacebookSquare, faInstagram, faLine, faAngleDoubleRight);
+library.add(faFacebookSquare, faInstagram, faLine, faAngleDoubleRight, faPlus);
 
 createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)
