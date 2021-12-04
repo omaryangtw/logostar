@@ -1,5 +1,5 @@
 <template>
-  <div class="container max-w-screen-lg grid grid-cols-4 mx-auto md:mt-10">
+  <div class="">
     <div id="main" class="col-span-4">
       <!-- 關於 -->
       <div class="">
@@ -16,8 +16,8 @@
             <div class="text-blue-700 font-bold text-2xl ml-2">
               星塵智權有限公司
             </div>
-            <div class="md:float-left">
-              <img src="../assets/img8.png" class="pl-6 pb-4" />
+            <div class="max-h-full md:float-left">
+              <img src="../assets/img8.png" class="" />
             </div>
             <div class="leading-7">
               我們認為，「好的LOGO設計＋適當的商標註冊登記」是您創立事業、推廣產品服務，最基本的積極態度。然而，作為企業法務顧問，我發現仍然有非常多中小企業、小規模營業人，忽略了申請商標的重要性。
@@ -63,11 +63,9 @@
       <div class="mt-10 mx-2">
         <div class="flex items-center">
           <img class="m-2 w-8" alt="logo_tiny" src="../assets/logo-tiny.png" />
-          <span class="text-xl md:text-2xl font-bold text-purple-700"
-            >LOGO</span
-          >
-          <span class="text-xl md:text-2xl font-bold text-black">STAR</span>
-          <span class="text-xl md:text-2xl font-bold text-blue-500">
+          <span class="md:text-2xl font-bold text-purple-700">LOGO</span>
+          <span class="md:text-2xl font-bold text-black">STAR</span>
+          <span class="md:text-2xl font-bold text-blue-500">
             設計師團隊豐富的經驗</span
           >
         </div>

@@ -1,122 +1,157 @@
 <template>
   <div>
-    <img alt="一站式整合服務" src="../assets/banner.png" />
-    <div class="container max-w-screen-lg grid grid-cols-4 md:mx-auto mt-10">
-      <div id="main" class="col-span-4 mx-2">
+    <div class="w-screen relative" style="height: 25vh">
+      <img
+        alt="一站式整合服務"
+        src="../assets/banner.jpg"
+        class="w-full h-full object-cover"
+      />
+      <h2
+        class="absolute font-bold text-blue-500 text-xl md:text-3xl"
+        style="top: 50%; left: 60%"
+      >
+        LOGO設計
+      </h2>
+      <h2
+        class="absolute font-bold text-blue-500 text-xl md:text-3xl"
+        style="top: 65%; left: 63%"
+      >
+        +商標註冊申請
+      </h2>
+    </div>
+    <div
+      class="container max-w-screen-lg w-10/12 grid grid-cols-4 mx-auto mt-8"
+    >
+      <div id="main" class="col-span-4">
         <!-- 見證 -->
         <div>
-          <div class="flex items-end">
-            <span class="text-purple-700 text-xl">LOGO</span>
-            <span class="text-xl">STAR</span>
+          <div class="text-2xl font-extrabold tracking-wide flex">
+            <span class="text-purple-700">LOGO</span>
+            <span>STAR</span>
           </div>
 
-          <div class="text-2xl font-bold mt-2 mb-4">
-            提供商標註冊＋Logo設計的整合服務
+          <div class="mt-2 mb-4 text-xl">
+            Logo設計＋商標註冊 一站式整合守護你的心血
           </div>
 
-          <div class="">
-            <div>Logostar是最貼近您商業需求的『Logo設計＋商標申請』服務。</div>
-            <div>
-              我們有資深平面設計師，搭配律師與商標顧問的堅強團隊，專業的商標設計提案，守護你的設計心血與品牌權益。
-            </div>
+          <div class="leading-relaxed">
+            <p>
+              好的LOGO設計可展現品牌獨有性格，完整商標註冊可強化LOGO與品牌的連結！
+              <br />
+              LOGOSTAR擁有來自各領域專業人才組成的堅強團隊，具備超過二十年的執案經驗，團隊成員包含：資深平面設計師，搭配律師與商標顧問，全方位捍衛您的事業心血與品牌權益。
+            </p>
           </div>
-          <div class="flex items-center">
-            <img alt="個案實例分享" src="../assets/quote.png" class="w-8" />
-            <span class="text-lg font-bold text-blue-500">個案實例分享</span>
+          <div class="mt-20 flex items-center">
+            <img alt="個案實例分享" src="../assets/quote.png" class="h-10" />
+            <span class="ml-2 text-2xl font-bold text-blue-500"
+              >創業者心聲分享</span
+            >
           </div>
           <div
             class="
-              grid grid-cols-7
-              gap-3
-              border border-blue-300
-              bg-blue-50
-              border-dashed
+              mt-8
               p-3
-              my-3
+              border border-blue-300 border-dashed
+              flex
+              md:space-x-4
             "
+            style="min-height: 240px"
           >
-            <div class="col-span-1 m-auto">
+            <div class="hidden md:block text-center m-auto">
               <img
                 alt="個案實例分享"
                 src="../assets/testimony_1.png"
-                class="w-full p-1 max-h-24"
+                class="m-auto object-cover w-10/12 h-10/12"
               />
+              <span>雲林 李小姐</span>
             </div>
-            <div class="col-span-6 self-center">
-              <div class="text-purple-500 font-bold text-lg">
-                我希望商標名稱、LOGO圖案和色彩設計，一整個都交給專業人士處理
+            <div class="md:w-2/3 self-center">
+              <h3 class="text-xl">商標設計與使用規範多，專家把關更有保障</h3>
+              <div class="block md:hidden h-40 w-40 m-auto text-center flex-1">
+                <img
+                  alt="個案實例分享"
+                  src="../assets/testimony_1.png"
+                  class="m-auto object-contain h-full w-full"
+                />
+                <span class="text-sm">雲林 李小姐</span>
               </div>
-
-              <div>
-                LOGO是您事業的門面，雖然從其他管道也找得到便宜的處理，但我們認為兼顧商標專業與預算，您不需要妥協。
-              </div>
+              <p class="mt-6">
+                創業前曾與朋友討論多款LOGO設計，那時候想著便宜處理、有一個識別圖案就好，還好向LOGOSTAR團隊詢問，了解LOGO設計也能夠做到兼顧商標規劃，最後我決定委託給LOGOSTAR處理！在我的預算內也得到完整保障，我只想說，LOGOSTAR真的很專業！
+              </p>
             </div>
           </div>
           <div
             class="
-              grid grid-cols-7
-              gap-3
-              border border-blue-300
-              bg-blue-50
-              border-dashed
+              mt-8
               p-3
-              my-3
+              border border-blue-300 border-dashed
+              flex
+              md:space-x-4
             "
+            style="min-height: 240px"
           >
-            <div class="col-span-6 self-center">
-              <div class="text-purple-500 font-bold text-lg">
-                針對新商品推廣，需要能吸引目標客群的視覺設計方案
+            <div class="md:w-2/3 self-center">
+              <h3 class="text-xl">吸引目標客群的視覺設計方案 讓行銷更省力</h3>
+              <div class="block md:hidden h-40 w-40 m-auto text-center flex-1">
+                <img
+                  alt="個案實例分享"
+                  src="../assets/testimony_2.png"
+                  class="m-auto object-contain h-full w-full"
+                />
+                <span class="text-sm">桃園楊梅 黃協理</span>
               </div>
-              <div>
-                針對商品整合行銷不可或缺的LOGO設計與商標權取得，您可以交給Logostar。
-              </div>
-              <div>
-                一站式整合服務，整合視覺設計與商標權諮詢，公司行號最有效率的選擇。
-              </div>
+              <p class="mt-6">
+                LOGOSTAR讓我明白LOGO設計與商標權取得，是公司行銷規劃最重要的一環，如果我早一點遇到LOGOSTAR，就能省時又省力，交由專業團隊直接整合視覺設計與商標諮詢，才是最有效率的做法！
+              </p>
             </div>
-            <div class="col-span-1 m-auto">
+            <div class="hidden md:block h-40 w-40 m-auto text-center flex-1">
               <img
                 alt="個案實例分享"
                 src="../assets/testimony_2.png"
-                class="w-full p-1 max-h-24"
+                class="m-auto object-contain h-full w-full"
               />
+              <span>桃園楊梅 黃協理</span>
             </div>
           </div>
           <div
             class="
-              grid grid-cols-7
-              gap-3
-              border border-blue-300
-              bg-blue-50
-              border-dashed
+              mt-8
               p-3
-              my-3
+              border border-blue-300 border-dashed
+              flex
+              md:space-x-4
             "
+            style="min-height: 240px"
           >
-            <div class="col-span-1 m-auto">
+            <div class="hidden md:block h-40 w-40 m-auto text-center">
               <img
                 alt="個案實例分享"
                 src="../assets/testimony_3.png"
-                class="w-full p-1 max-h-24"
+                class="m-auto object-cover w-9/12 h-9/12"
               />
+              <span>台南國華街 Sean</span>
             </div>
-            <div class="col-span-6 self-center">
-              <div class="text-purple-500 font-bold text-lg">
-                時間就是金錢，LOGO設計完成立刻申請商標，不需要重複溝通兩次
+            <div class="md:w-2/3 self-center">
+              <h3 class="text-xl">
+                時間就是金錢，LOGO設計&商標申請同步，不需要重複溝通兩次
+              </h3>
+              <div class="block md:hidden h-40 w-40 m-auto text-center">
+                <img
+                  alt="個案實例分享"
+                  src="../assets/testimony_3.png"
+                  class="m-auto object-cover w-9/12 h-9/12"
+                />
+                <span class="text-sm">台南國華街 Sean</span>
               </div>
-
-              <div>
-                從LOGO的設計師提案開始，商標代理人同步進行商標檢索，避免耗資裝潢印刷後卻與他人LOGO近似造成金錢損失。
-              </div>
-              <div>
-                而且，LOGO設計與商標申請同步進行，一次溝通整合服務，為您爭取時間。
-              </div>
+              <p class="mt-6">
+                創業時很擔心不懂商標法規定，萬一我的LOGO和別人長得很像，不但有可能上法院，還要撤回已經裝潢印刷的費用損失。後來友人推薦LOGOATAR，在LOGO設計提案前預先把關，事後快速送審，解決我不少麻煩！
+              </p>
             </div>
           </div>
         </div>
 
         <!-- 妥善規劃商標，邁向事業成功 -->
-        <div class="mt-10">
+        <div class="mt-20">
           <div class="flex items-center mb-4">
             <img
               class="mr-2 w-8"
@@ -125,7 +160,10 @@
             />
             <span class="text-2xl font-bold">妥善規劃商標，邁向事業成功</span>
           </div>
-          <div class="border rounded-lg bg-gray-50 p-3">
+          <p>
+            業界執案多年，我們發現許多創業者擁有企圖心和優質產品，卻在商標規劃與維權上輕忽，導致事後花費更多預算在變更LOGO，不得不重新裝潢、撤下文宣，難免感到心力交瘁。您的交付，讓我們責無旁貸，唯有落實事前檢索智慧財產局商標資料庫，確保市場沒有近似的商標內容，再交付設計師提案，為您節省寶貴的時間與金錢！
+          </p>
+          <div class="mt-8 p-3 border rounded-lg bg-gray-50">
             <div class="font-bold text-lg my-3">
               Logo 設計+商標註冊的整合服務
             </div>
@@ -137,8 +175,7 @@
                   font-bold
                   text-center
                   border-2
-                  py-4
-                  border-blue-400
+                  py-1
                 "
               >
                 Logo設計 + 國內商標註冊
@@ -150,8 +187,7 @@
                   font-bold
                   text-center
                   border-2
-                  py-4
-                  border-green-400
+                  py-1
                 "
               >
                 Logo設計 + 國際商標註冊
@@ -163,246 +199,160 @@
                   font-bold
                   text-center
                   border-2
-                  py-4
-                  border-red-400
+                  py-1
                 "
               >
                 商品推廣前商標調查
               </div>
             </div>
             <div class="my-4">
-              <div class="">
-                與您討論LOGO設計提案時，我們同步進行商標資料庫檢索調查：
+              <div class="text-lg">
+                瞭解您的Logo設計需求後，同步進行商標資料庫檢索作業，我們提供的服務包含：
               </div>
-              <div
-                class="
-                  grid grid-cols-3
-                  gap-x-2 gap-y-1
-                  justify-around
-                  m-auto
-                  my-2
-                "
-              >
-                <div
-                  class="
-                    col-span-3
-                    md:col-span-1
-                    font-bold
-                    border-gray-500 border
-                    p-1
-                  "
-                >
-                  <font-awesome-icon icon="angle-double-right" />
-                  <span>設計師提案迅速對應調整</span>
+              <div class="grid grid-cols-2 gap-4 py-4">
+                <div class="col-span-2 md:col-span-1 grid grid-cols-2 gap-4">
+                  <div
+                    class="
+                      col-span-2
+                      text-center
+                      opacity-75
+                      text-red-600
+                      font-semibold
+                    "
+                  >
+                    文字、讀音確認
+                  </div>
+                  <div
+                    class="
+                      col-span-1
+                      mx-auto
+                      border border-gray-500
+                      rounded-lg
+                      w-full
+                      text-center
+                      items-center
+                    "
+                  >
+                    <div class="m-auto h-32 self-center flex">
+                      <div class="m-auto font-semibold">星塵微光</div>
+                    </div>
+                    <p
+                      class="
+                        py-1
+                        border-t border-gray-500
+                        rounded
+                        bg-red-600
+                        text-white
+                        font-bold
+                        text-sm
+                      "
+                    >
+                      公司、商號名稱
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      col-span-1
+                      mx-auto
+                      border border-gray-500
+                      rounded-lg
+                      w-full
+                      text-center
+                    "
+                  >
+                    <div class="h-32 self-center flex">
+                      <div class="m-auto font-semibold">LOGOSTAR</div>
+                    </div>
+                    <p
+                      class="
+                        py-1
+                        border-t border-gray-500
+                        rounded
+                        bg-red-600
+                        text-white
+                        font-bold
+                        text-sm
+                      "
+                    >
+                      商品、服務名稱
+                    </p>
+                  </div>
                 </div>
-                <div
-                  class="
-                    col-span-3
-                    md:col-span-1
-                    font-bold
-                    border-gray-500 border
-                    p-1
-                  "
-                >
-                  <font-awesome-icon icon="angle-double-right" />
-                  <span>加速商標申請作業</span>
+                <div class="col-span-2 md:col-span-1 grid grid-cols-2 gap-4">
+                  <div
+                    class="
+                      col-span-2
+                      text-center
+                      opacity-75
+                      text-green-700
+                      font-semibold
+                    "
+                  >
+                    設計圖案確認
+                  </div>
+                  <div
+                    class="
+                      col-span-1
+                      mx-auto
+                      border border-gray-500
+                      rounded-lg
+                      w-full
+                      text-center
+                    "
+                  >
+                    <div class="">
+                      <img
+                        class="m-auto h-32"
+                        alt="logo_tiny"
+                        src="../assets/img6.png"
+                      />
+                    </div>
+                    <p
+                      class="
+                        border-t border-gray-500
+                        rounded
+                        bg-green-700
+                        text-white
+                        font-bold
+                        py-1
+                        text-sm
+                      "
+                    >
+                      公司LOGO
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      col-span-1
+                      mx-auto
+                      border border-gray-500
+                      rounded-lg
+                      w-full
+                      text-center
+                    "
+                  >
+                    <div class="m-auto">
+                      <img
+                        class="m-auto h-32"
+                        alt="logo_tiny"
+                        src="../assets/img1.png"
+                      />
+                    </div>
+                    <p
+                      class="
+                        border-t border-gray-500
+                        rounded
+                        bg-green-700
+                        text-white
+                        font-bold
+                        py-1
+                        text-sm
+                      "
+                    >
+                      商品、服務LOGO
+                    </p>
+                  </div>
                 </div>
-                <div
-                  class="
-                    col-span-3
-                    md:col-span-1
-                    font-bold
-                    border-gray-500 border
-                    p-1
-                  "
-                >
-                  <font-awesome-icon icon="angle-double-right" />
-                  <span>避免相似LOGO造成日後損失</span>
-                </div>
-                <div
-                  class="
-                    col-span-3
-                    md:col-span-1
-                    font-bold
-                    border-gray-500 border
-                    p-1
-                  "
-                >
-                  <font-awesome-icon icon="angle-double-right" />
-                  <span>商標代理人提供商標分類建議</span>
-                </div>
-                <div
-                  class="
-                    col-span-3
-                    md:col-span-1
-                    font-bold
-                    border-gray-500 border
-                    p-1
-                  "
-                >
-                  <font-awesome-icon icon="angle-double-right" />
-                  <span>國外行銷佈局事先調查</span>
-                </div>
-                <div
-                  class="
-                    col-span-3
-                    md:col-span-1
-                    font-bold
-                    border-gray-500 border
-                    p-1
-                  "
-                >
-                  <font-awesome-icon icon="angle-double-right" />
-                  <span>提供市場行銷資訊</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="font-bold pt-4">
-            透過商標代理人檢索智慧財產局商標資料庫，避免您的LOGO名稱、圖案和其他人已獲准商標相似。
-          </div>
-          <div class="font-bold">
-            我們知道，因為沒有事前防範，日後花更多錢修改LOGO，裝潢、文宣重做的例子不少。
-          </div>
-
-          <div class="grid grid-cols-2 gap-4 py-4">
-            <div class="col-span-2 md:col-span-1 grid grid-cols-2 gap-4">
-              <div
-                class="
-                  col-span-2
-                  text-center
-                  opacity-75
-                  text-red-600 text-lg
-                  font-semibold
-                "
-              >
-                文字、讀音確認
-              </div>
-              <div
-                class="
-                  col-span-1
-                  mx-auto
-                  border border-gray-500
-                  rounded-lg
-                  w-full
-                  text-center
-                  items-center
-                "
-              >
-                <div class="text-xl m-auto h-32 self-center flex">
-                  <div class="m-auto font-semibold text-2xl">星塵微光</div>
-                </div>
-                <p
-                  class="
-                    border-t border-gray-500
-                    rounded
-                    bg-red-600
-                    text-white
-                    font-bold
-                    py-1
-                  "
-                >
-                  公司、商號名稱
-                </p>
-              </div>
-              <div
-                class="
-                  col-span-1
-                  mx-auto
-                  border border-gray-500
-                  rounded-lg
-                  w-full
-                  text-center
-                "
-              >
-                <div class="text-xl h-32 self-center flex">
-                  <div class="m-auto font-semibold text-2xl">LOGOSTAR</div>
-                </div>
-                <p
-                  class="
-                    border-t border-gray-500
-                    rounded
-                    bg-red-600
-                    text-white
-                    font-bold
-                    py-1
-                  "
-                >
-                  商品、服務名稱
-                </p>
-              </div>
-            </div>
-            <div class="col-span-2 md:col-span-1 grid grid-cols-2 gap-4">
-              <div
-                class="
-                  col-span-2
-                  text-center
-                  opacity-75
-                  text-green-700 text-lg
-                  font-semibold
-                "
-              >
-                設計圖案確認
-              </div>
-              <div
-                class="
-                  col-span-1
-                  mx-auto
-                  border border-gray-500
-                  rounded-lg
-                  w-full
-                  text-center
-                "
-              >
-                <div class="">
-                  <img
-                    class="m-auto h-32"
-                    alt="logo_tiny"
-                    src="../assets/img6.png"
-                  />
-                </div>
-                <p
-                  class="
-                    border-t border-gray-500
-                    rounded
-                    bg-green-700
-                    text-white
-                    font-bold
-                    py-1
-                  "
-                >
-                  公司LOGO
-                </p>
-              </div>
-              <div
-                class="
-                  col-span-1
-                  mx-auto
-                  border border-gray-500
-                  rounded-lg
-                  w-full
-                  text-center
-                "
-              >
-                <div class="m-auto">
-                  <img
-                    class="m-auto h-32"
-                    alt="logo_tiny"
-                    src="../assets/img1.png"
-                  />
-                </div>
-                <p
-                  class="
-                    border-t border-gray-500
-                    rounded
-                    bg-green-700
-                    text-white
-                    font-bold
-                    py-1
-                  "
-                >
-                  商品、服務LOGO
-                </p>
               </div>
             </div>
           </div>
@@ -415,7 +365,7 @@
         </div>
 
         <!-- LOGO STAR 的專業 -->
-        <div class="mt-10">
+        <div class="mt-20">
           <div class="flex items-center mb-4">
             <img
               class="mr-2 w-8"
@@ -427,75 +377,89 @@
             <span class="text-2xl font-bold text-blue-500">的專業</span>
           </div>
 
-          <div class="grid grid-cols-4 gap-6 border">
-            <div class="md:col-span-3 col-span-2">
-              <div class="md:flex items-baseline mt-4 hidden">
-                <h3 class="bg-blue-400 text-white text-lg font-bold p-1">
-                  王正宏律師 |
-                </h3>
-                <h4 class="bg-blue-400 text-white text-lg font-bold p-1">
-                  正宏律師事務所 主持律師
-                </h4>
-              </div>
-              <div class="mr-2 text-xl font-bold text-blue-400 p-5 leading-10">
-                <div class="">執業律師二十餘年</div>
-                <div class="">台南市律師公會理事/監事</div>
-                <div class="">臺南市政府警察局法律顧問</div>
-              </div>
-            </div>
-            <div class="md:col-span-1 col-span-2">
-              <img
-                class="m-auto max-h-48"
-                alt="王正宏律師"
-                src="../assets/img7.png"
-              />
-            </div>
-          </div>
-          <div class="block mt-4 md:hidden">
-            <span class="font-bold p-1">王正宏律師 | </span>
-            <span class="font-bold p-1">正宏律師事務所 主持律師</span>
-          </div>
-          <div class="leading-8 py-4">
-            『由於高速頻寬網路的普及，各種行銷手段模仿、攀附他人商譽、商標搶註等不正當競爭行為，在網路時代也隨著加速進行、型態多樣化，防不勝防。
-            為了保護客戶苦心經營的事業，全新的一站式整合設計與法律的服務，可以取得最適當的LOGO設計與商標註冊形式，捍衛您的權益。』
-          </div>
-          <div class="grid grid-cols-4 gap-6 border">
-            <div class="col-span-2 md:col-span-1">
-              <img
-                class="m-auto max-h-48"
-                alt="胡志青"
-                src="../assets/img8.png"
-              />
-            </div>
-            <div class="col-span-2 md:col-span-3">
-              <div class="md:flex items-baseline mt-4 hidden">
-                <h3 class="bg-blue-400 text-white text-lg font-bold p-1">
-                  胡志青 |
-                </h3>
-                <h4 class="bg-blue-400 text-white text-lg font-bold p-1">
-                  星塵智權有限公司 商標代理人
-                </h4>
-              </div>
-              <div class="mr-2 text-xl font-bold text-blue-400 p-5 leading-10">
-                <div class="hidden md:block">星塵智權有限公司 負責人</div>
-                <div class="">
-                  上市科技公司資深法務，曾參與多件智慧財產權授權談判、防禦性專利聯盟等事務。
+          <div
+            class="
+              
+              flex flex-col
+              md:flex-row
+              divide-y
+              md:divide-y-0 md:space-x-4
+            "
+          >
+            <div class="flex md:flex-shrink-0">
+              <div class="flex-col mx-auto md:max-w-sm">
+                <img
+                  class="md:max-w-sm"
+                  alt="王正宏律師"
+                  src="../assets/22.jpg"
+                />
+                <div>
+                  <h3 class="md:text-lg font-bold">
+                    王正宏律師
+                    <br />
+                    正宏律師事務所 主持律師
+                  </h3>
+                  <div class="text-blue-700">
+                    <div>執業律師二十餘年</div>
+                    <div>台南市律師公會理事/監事</div>
+                    <div>臺南市政府警察局法律顧問</div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="my-auto">
+              <p class="font-bold md:text-lg">
+                “網路的普及，致不當業者以行銷手段模仿、攀附他人商譽，甚至是商標搶註…等，讓經營者防不勝防。”
+              </p>
+              <p class="mt-4">
+                為了保護客戶苦心經營的事業，我們提供全新一站式整合設計與法律的服務，專注為您取得最適當的LOGO設計與商標註冊形式，捍衛您的商業權益。
+              </p>
+            </div>
           </div>
-          <div class="block mt-4 md:hidden">
-            <span class="font-bold p-1">胡志青 | </span>
-            <span class="font-bold p-1">星塵智權有限公司 商標代理人</span>
+          <div
+            class="
+              
+              flex flex-col
+              md:flex-row
+              divide-y
+              md:divide-y-0 md:space-x-4
+            "
+          >
+            <div class="flex md:flex-shrink-0">
+              <div class="md:max-w-sm flex-col mx-auto">
+                <img class="md:max-w-sm" alt="胡志青" src="../assets/23.jpeg" />
+                <div>
+                  <h3 class="md:text-lg font-bold">
+                    胡志青
+                    <br />
+                    星塵智權有限公司
+                    <br />
+                    商標代理人
+                  </h3>
+                  <div class="text-blue-700">
+                    <p>
+                      星塵智權有限公司 負責人
+                      <br />
+                      上市科技公司資深法務，曾參與多件智慧財產權授權談判、防禦性專利聯盟等事務。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="my-auto">
+              <p class="font-bold md:text-lg">
+                “兼顧LOGO設計的知性、完整商標佈局的理性，<span
+                  class="text-purple-700"
+                  >LOGO</span
+                >STAR責無旁貸。”
+              </p>
+              <p class="mt-4">
+                LOGO是企業與商品的門面，是傳達服務理念的第一印象。因此，進行LOGO的設計要特別注意，避免在不知情的情況下和他人商標近似，而導致公司的法律危機。
+                <span class="text-purple-700">LOGO</span
+                >STAR結合平面設計工作室＋商標代理人，有效率提供LOGO設計到商標註冊登記，我們責無旁貸。
+              </p>
+            </div>
           </div>
-          <div class="leading-8 py-4">
-            『LOGO是企業與商品的門面，是傳達服務理念的第一印象。因此，進行LOGO的設計要特別注意，在不知情的情況下和他人商標近似，而導致公司的法律危機，關於這點請務必緊記在心。
-            要如何做到兼顧LOGO設計的知性，及完整商標佈局的理性? LOGOSTAR
-            正好符合您的需求！
-            結合平面設計工作室＋商標代理人，有效率的提供LOGO設計到商標註冊登記，我們責無旁貸。』
-          </div>
-
-          <div class="mb-10 md:mb-20"></div>
         </div>
       </div>
     </div>
