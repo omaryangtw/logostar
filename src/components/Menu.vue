@@ -1,5 +1,5 @@
 <template>
-  <div class="w-10/12 mx-auto">
+  <div class="max-w-screen-lg w-10/12 mx-auto">
     <nav class="hidden md:block my-2">
       <ul class="flex">
         <li v-for="item in items" :key="item.en" class="flex-1">

@@ -19,9 +19,7 @@
         +商標註冊申請
       </h2>
     </div>
-    <div
-      class="container max-w-screen-lg w-10/12 grid grid-cols-4 mx-auto mt-8"
-    >
+    <div class="max-w-screen-lg w-10/12 grid grid-cols-4 mx-auto mt-8">
       <div id="main" class="col-span-4">
         <!-- 見證 -->
         <div>
@@ -379,7 +377,6 @@
 
           <div
             class="
-              
               flex flex-col
               md:flex-row
               divide-y
@@ -418,7 +415,6 @@
           </div>
           <div
             class="
-              
               flex flex-col
               md:flex-row
               divide-y
