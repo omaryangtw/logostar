@@ -8,13 +8,13 @@
       />
       <h2
         class="absolute font-bold text-blue-500 text-xl md:text-3xl"
-        style="top: 50%; left: 60%"
+        style="top: 50%; left: 45%"
       >
         LOGO設計
       </h2>
       <h2
         class="absolute font-bold text-blue-500 text-xl md:text-3xl"
-        style="top: 65%; left: 63%"
+        style="top: 65%; left: 48%"
       >
         +商標註冊申請
       </h2>

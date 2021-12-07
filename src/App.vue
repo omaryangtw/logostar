@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-50 relative">
-    <div class="bg-gray-50 hidden md:block">
-      <div class="max-w-screen-lg mx-auto">
+    <div class="bg-gray-100 hidden md:block">
+      <div class="max-w-screen-lg w-10/12 mx-auto">
         <div class="py-px">
           <div class="text-lg">
             <span class="text-white bg-purple-700 p-1">

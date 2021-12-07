@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg mx-auto">
+  <div class="max-w-screen-lg w-10/12 mx-auto">
     <div class="col-span-12 my-3 mx-2">
       聯絡我們： 請填寫下列表單資料，我們將與您聯繫
       <br />
