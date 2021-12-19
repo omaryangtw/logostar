@@ -110,13 +110,15 @@
       <div v-if="required" class="col-span-12 mx-auto bg-red-500 text-white">
         請將必填資訊完整填入
       </div>
-
-      <button
-        @click="check"
-        class="p-4 col-span-12 bg-blue-500 text-white font-bold my-3"
+      <vue-recaptcha
+        class="p-4 col-span-12 bg-blue-500 my-3 flex justify-center relative"
+        sitekey="6Ldwy7IdAAAAAFa2p9QeIB1-87hdI7j9u_L8krQa"
       >
-        確認送出
-      </button>
+        <button @click="check" class="text-white font-bold">
+          <span class="absolute inset-0" aria-hidden="true"></span>
+          確認送出
+        </button>
+      </vue-recaptcha>
     </div>
   </div>
 
@@ -203,9 +205,12 @@
 
 <script>
 import emailjs from 'emailjs-com';
-import { useReCaptcha } from 'vue-recaptcha-v3';
+import { VueRecaptcha } from 'vue-recaptcha';
 export default {
   name: 'Order',
+  components: {
+    VueRecaptcha,
+  },
   data() {
     return {
       modal: false,
