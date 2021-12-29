@@ -6,5 +6,8 @@ handlers:
     upload: dist/(.*\..+)$
     # catch all handler to index.html
   - url: /.*
+    secure: always
+    http_headers:
+      Strict-Transport-Security: max-age=31536000; includeSubDomains
     static_files: dist/index.html
     upload: dist/index.html
