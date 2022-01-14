@@ -187,7 +187,11 @@
     </div>
     <div class="col-span-4">
       <div class="w-full">
-        <img src="../assets/img17.jpg" class="w-full object-fit" alt="" />
+        <img
+          src="../assets/img17.jpg"
+          class="w-full object-cover md:max-h-72"
+          alt="confidential"
+        />
       </div>
       <div class="mt-8">
         <div class="text-xl font-bold lg:col-span-2 col-span-3">
@@ -259,8 +263,8 @@
     <ul class="col-span-4 pl-16 text-lg list-disc">
       <li>到店拜訪：高雄、台南，可安排專人親訪</li>
       <li>
-        預約諮詢：線上預約時間，由您親至台南市安平區LOGO S T A
-        R事務所辦公室面談討論。
+        預約諮詢：線上預約時間，由您親至台南市安平區
+        <span class="text-purple-700">LOGO</span>STAR事務所辦公室面談討論。
       </li>
       <li>
         視訊會議：提供線上會議服務，只要有瀏覽器就可以和我們進行視訊會議。我們也配合支援多款視訊會議軟體（Meet、Zoom、LINE、Skype、Webex）。

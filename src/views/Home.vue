@@ -6,18 +6,13 @@
         src="../assets/banner.jpg"
         class="w-full h-full object-cover"
       />
-      <h2
+      <div
         class="absolute font-bold text-blue-500 text-xl md:text-3xl"
-        style="top: 50%; left: 45%"
+        style="top: 45%; left: 45%"
       >
-        LOGO設計
-      </h2>
-      <h2
-        class="absolute font-bold text-blue-500 text-xl md:text-3xl"
-        style="top: 65%; left: 48%"
-      >
-        +商標註冊申請
-      </h2>
+        <h2>LOGO設計</h2>
+        <h2 class="mt-2 ml-6">+商標註冊申請</h2>
+      </div>
     </div>
     <div class="max-w-screen-lg w-10/12 grid grid-cols-4 mx-auto mt-8">
       <div id="main" class="col-span-4">
@@ -58,7 +53,7 @@
             <div class="hidden md:block text-center m-auto">
               <img
                 alt="個案實例分享"
-                src="../assets/testimony_1.png"
+                src="../assets/testimony_1.webp"
                 class="m-auto object-cover w-10/12 h-10/12"
               />
               <span>雲林 李小姐</span>
@@ -159,7 +154,9 @@
             <span class="text-2xl font-bold">妥善規劃商標，邁向事業成功</span>
           </div>
           <p>
-            業界執案多年，我們發現許多創業者擁有企圖心和優質產品，卻在商標規劃與維權上輕忽，導致事後花費更多預算在變更LOGO，不得不重新裝潢、撤下文宣，難免感到心力交瘁。您的交付，讓我們責無旁貸，唯有落實事前檢索智慧財產局商標資料庫，確保市場沒有近似的商標內容，再交付設計師提案，為您節省寶貴的時間與金錢！
+            業界執案多年，我們發現許多創業者擁有企圖心和優質產品，卻在商標規劃與維權上輕忽，導致事後花費更多預算在變更LOGO，不得不重新裝潢、撤下文宣，難免感到心力交瘁。
+            <br />
+            您的交付，讓我們責無旁貸，唯有落實事前檢索智慧財產局商標資料庫，確保市場沒有近似的商標內容，再交付設計師提案，為您節省寶貴的時間與金錢！
           </p>
           <div class="mt-8 p-3 border rounded-lg bg-gray-50">
             <div class="font-bold text-lg my-3">
@@ -388,23 +385,24 @@
                 <img
                   class="md:max-w-sm"
                   alt="王正宏律師"
-                  src="../assets/22.jpg"
+                  src="../assets/22re.jpg"
                 />
-                <div>
-                  <h3 class="md:text-lg font-bold">
-                    王正宏律師
-                    <br />
-                    正宏律師事務所 主持律師
-                  </h3>
-                  <div class="text-blue-700">
-                    <div>執業律師二十餘年</div>
-                    <div>台南市律師公會理事/監事</div>
-                    <div>臺南市政府警察局法律顧問</div>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="my-auto">
+              <div>
+                <h3 class="md:text-lg font-bold">
+                  王正宏律師
+                  <br />
+                  正宏律師事務所 主持律師
+                </h3>
+                <div class="text-blue-700">
+                  <div>執業律師二十餘年</div>
+                  <div>台南市律師公會理事/監事</div>
+                  <div>臺南市政府警察局法律顧問</div>
+                </div>
+              </div>
+              <br />
               <p class="font-bold md:text-lg">
                 “網路的普及，致不當業者以行銷手段模仿、攀附他人商譽，甚至是商標搶註…等，讓經營者防不勝防。”
               </p>
@@ -421,28 +419,33 @@
               md:divide-y-0 md:space-x-4
             "
           >
-            <div class="flex md:flex-shrink-0">
+            <div class="flex mt-6 md:mt-0 md:flex-shrink-0 md:order-last">
               <div class="md:max-w-sm flex-col mx-auto">
-                <img class="md:max-w-sm" alt="胡志青" src="../assets/23.jpeg" />
-                <div>
-                  <h3 class="md:text-lg font-bold">
-                    胡志青
-                    <br />
-                    星塵智權有限公司
-                    <br />
-                    商標代理人
-                  </h3>
-                  <div class="text-blue-700">
-                    <p>
-                      星塵智權有限公司 負責人
-                      <br />
-                      上市科技公司資深法務，曾參與多件智慧財產權授權談判、防禦性專利聯盟等事務。
-                    </p>
-                  </div>
-                </div>
+                <img
+                  class="md:max-w-sm"
+                  alt="胡志青"
+                  src="../assets/23re.jpg"
+                />
               </div>
             </div>
             <div class="my-auto">
+              <div>
+                <h3 class="md:text-lg font-bold">
+                  胡志青
+                  <br />
+                  星塵智權有限公司
+                  <br />
+                  商標代理人
+                </h3>
+                <div class="text-blue-700">
+                  <p>
+                    星塵智權有限公司 負責人
+                    <br />
+                    上市科技公司資深法務，曾參與多件智慧財產權授權談判、防禦性專利聯盟等事務。
+                  </p>
+                </div>
+              </div>
+              <br />
               <p class="font-bold md:text-lg">
                 “兼顧LOGO設計的知性、完整商標佈局的理性，<span
                   class="text-purple-700"
@@ -464,7 +467,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: 'Home',
   data() {
     return {};
   },

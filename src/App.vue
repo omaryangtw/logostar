@@ -5,7 +5,7 @@
         <div class="py-px">
           <div class="text-lg">
             <span class="text-white bg-purple-700 p-1">
-              Logo設計＋商標申請一站式整合服務
+              Logo設計+商標申請 全新的整合服務
             </span>
           </div>
           <img class="w-48" alt="logo" src="./assets/img1.png" />
@@ -33,7 +33,7 @@
 </template>
 
 <script setup>
-import Menu from "./components/Menu.vue";
+import Menu from './components/Menu.vue';
 </script>
 
 <style>

@@ -7,47 +7,71 @@
     </div>
   </div>
 
-  <div class="max-w-screen-lg w-10/12 mx-auto">
-    <div>
-      <div class="text-blue-700 font-bold text-xl">
-        資深企業法務資歷的商標代理人
-      </div>
-      <div class="text-blue-700 font-bold text-2xl">星塵智權有限公司</div>
-      <div class="max-h-full md:float-left">
-        <img src="../assets/img8.png" />
-      </div>
-      <div class="leading-7">
-        我們認為，「好的LOGO設計＋適當的商標註冊登記」是您創立事業、推廣產品服務，最基本的積極態度。然而，作為企業法務顧問，我發現仍然有非常多中小企業、小規模營業人，忽略了申請商標的重要性。
-      </div>
-      <div>
-        現代社會創業門檻不高，相似的產品/服務創意百花齊放，現在使用的Logo試著做商標檢索看看，您會很驚訝的發現有其他類似的商標
-        ，只是一直沒(被)發現。事實上，台灣商標申請費用成本不高（當然，這並不代表商標註冊取得很容易，建議仍要尋求專業的檢索服務與申請規劃），多數創業者、中小企業沒有商標規劃，常是因為忙於業務開發、產品設計，無暇考慮開業後的商標侵權風險，沒有感受到事前調查的急迫性。
-      </div>
-      <div>
-        「Time to
-        Market」，LOGOSTAR攜手專業平面設計師、CIS企業識別設計師，共同打造「從Logo設計到商標註冊」的快速機制，容易理解！快速有效！不再發生產品上市後侵權、遭人仿冒商標的憾事。
-      </div>
-    </div>
-
-    <div class="mt-6">
-      <div class="text-blue-700 font-bold text-xl">
-        穩健踏實、專注智慧財產的商務律師
-      </div>
-      <div class="text-blue-700 font-bold text-2xl">正宏律師事務所</div>
-      <div class="md:float-right">
-        <img src="../assets/img7.png" class="pl-6 pb-4" />
-      </div>
-      <div class="leading-7">
-        『堅持推出最好的產品』職人精神，是的！
+  <div class="mt-4 max-w-screen-lg w-10/12 mx-auto">
+    <div class="grid grid-cols-3 gap-6">
+      <div
+        class="
+          col-span-3
+          md:col-span-1
+          text-blue-700
+          font-bold
+          text-lg
+          md:text-xl
+        "
+      >
+        <img class="w-full" src="../assets/23re.jpg" />
+        商標代理人
         <br />
-        同樣的，LOGO是您事業的門面，我們也希望您秉持同樣「最好！」的堅持。所以我們特別強調，「LOGO」要避免因爲輕忽而遭到他人搶註，更要避免因爲侵害他人商標而被迫產品下架。
+        資深企業法務
+        <br />
+        <h6 class="text-sm text-right">-星塵智權有限公司</h6>
+      </div>
+      <div class="leading-7 col-span-3 md:col-span-2">
+        <h5 class="font-bold text-lg">
+          Time to Market！別讓商標侵權成為成本耗損的原兇
+        </h5>
+        <br />
+        在事業推廣之前，您一定擁有超棒的點子，蓄勢待發，但千萬別忽略「適當的商標註冊申請」才是合理擁有事業心血的重要權益！
+        <br />
+        <br />
+        擔任企業法務顧問多年，我發現仍然有非常多中小企業、小規模營業人，忽略商標申請的重要性。雖然，台灣商標申請費用成本不高，但商標取得仍具一定的程序規範，建議尋求專業的檢索服務與申請規劃。過去常有案例，不少創業者、中小企業因忙於業務開發、產品設計，忽略開業後的商標侵權風險，卻在開業後花費更多成本補救已付出的行銷宣傳成本，得不償失！
+        <br />
+        <br />
+        Time to
+        Market！LOGOSTAR攜手專業平面設計師、CIS企業識別設計師，共同打造「從Logo設計到商標註冊」的快速機制，全方位捍衛您的事業心血，別讓侵權疏忽、遭人仿冒商標成為您的憾事。
       </div>
     </div>
 
-    <div class="mt-4">
-      透過商標註冊登錄，取得他人無法撼動的權利，排除創業心血可能一夕化為烏有的風險。
-      <br />
-      當然，除了做到控管法律風險，您也希望令人滿意的LOGO設計同時兼得，這就是LOGOSTAR同時能整合LOGO設計與商標規劃的專業服務。客戶、設計師、智權法務共同參與LOGO圖案設計，得以兼顧設計美感、權利規劃與商標登錄效率，是我們的專業與責任。
+    <div class="mt-8 grid grid-cols-3 gap-6">
+      <div
+        class="
+          col-span-3
+          md:col-span-1
+          text-blue-700
+          font-bold
+          text-lg
+          md:text-xl md:order-last
+        "
+      >
+        <img class="w-full" src="../assets/25re.jpg" />
+        穩健踏實、專注智慧財產的商務律師
+        <br />
+        <h6 class="text-sm text-right">-正宏律師事務所</h6>
+      </div>
+      <div class="leading-7 col-span-3 md:col-span-2">
+        <h5 class="font-bold text-lg md:text-xl text-blue-700">
+          『堅持推出最好的產品』職人精神
+        </h5>
+
+        <br />
+        LOGO是您事業的門面，是傳達您事業理念的重要載體，其重要性不言而喻！因此唯有「最好」，不容妥協！
+        <br />
+        <br />
+        但光是擁有最好的LOGO是不夠的！如果未取得註冊核准，一旦遭他人搶先註冊，或是因侵害他人商標而被迫下架，您在創業前的萬事俱備，將可能一夕化為烏有！
+        <br />
+        <br />
+        好的商標設計要兼具風險控管，選擇Logostar團隊，整合提供LOGO設計與商標規劃的專業服務，由客戶、設計師、智權法務共同參與LOGO圖案設計，可兼顧設計美感、權利規劃與商標登錄效率，是我們的專業與責任。
+      </div>
     </div>
 
     <!-- LOGOSTAR設計師團隊豐富的經驗 -->
@@ -66,13 +90,17 @@
 
     <span>
       「怎麼辦？我有很多想法不知如何取捨！」不少客戶在尋求Logo設計前，心裡早已醞釀各種Logo設計想法，卻不知如何表達，甚至在設計師面前不好意思表達對作品的感覺，不敢說出心中真正想法。
+      <br />
       別擔心！LOGOSTAR團隊長年參與企業行銷企劃，執行平面與商品包裝設計，企業形象識別規劃等專案，具有豐富設計資歷。
+      <br />
       溝通上，我們善於聆聽、引導、聚焦，可更快速地捕捉您的想法；專業上，我們會考量設計使用目的、提案背景、商品及服務應用客群，具體實現最貼近市場脈動的LOGO設計！
     </span>
     <br />
+    <br />
     <span class="text-3xl text-purple-700">|</span>
-    <span class="font-bold ml-2"
-      >LOGOSTAR團隊除了設計Logo，還可以接手後續的周邊用品設計，包括名片、公司信封信紙、廣告圖像素材、網站製作、產品型錄、文件夾、PTT版型，LOGOSTAR團隊支援各式行銷服務，讓更多消費者認識你的商標。</span
+    <span class="ml-2">
+      <span class="text-purple-700">LOGO</span
+      >STAR團隊除了設計Logo，還可以接手後續的周邊用品設計，包括名片、公司信封信紙、廣告圖像素材、網站製作、產品型錄、文件夾、PTT版型，LOGOSTAR團隊支援各式行銷服務，讓更多消費者認識你的商標。</span
     >
 
     <br />
@@ -84,7 +112,7 @@
     <div>
       <div class="grid grid-cols-1 lg:grid-cols-2 border">
         <div class="col-span-1 border-b lg:border-r">
-          <img src="../assets/flow.png" alt="flow" />
+          <img src="../assets/26.png" alt="flow" />
         </div>
         <div class="col-span-1 self-center">
           <div class="border-b p-2">
