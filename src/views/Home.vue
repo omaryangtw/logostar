@@ -63,8 +63,8 @@
               <div class="block md:hidden h-40 w-40 m-auto text-center flex-1">
                 <img
                   alt="個案實例分享"
-                  src="../assets/testimony_1.png"
-                  class="m-auto object-contain h-full w-full"
+                  src="../assets/testimony_1.webp"
+                  class="m-auto object-cover h-full w-full"
                 />
                 <span class="text-sm">雲林 李小姐</span>
               </div>
@@ -411,6 +411,7 @@
               </p>
             </div>
           </div>
+          <hr class="my-6" />
           <div
             class="
               flex flex-col

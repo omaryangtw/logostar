@@ -34,17 +34,15 @@
         </a>
       </div>
 
-      <button @click="nav = !nav">
-        <font-awesome-icon :icon="['fas', 'bars']" v-show="!nav" />
-        <font-awesome-icon icon="times" class="fa-lg" v-show="nav" />
+      <button>
+        <font-awesome-icon :icon="['fas', 'bars']" @click="nav = !nav" />
       </button>
 
       <div class="w-full" id="menu" :class="{ hidden: !nav }">
         <ul class="divide-y">
-          <li v-for="item in items" :key="item.name" class="">
+          <li v-for="item in items" :key="item.name">
             <router-link
               class="block py-0.5 text-right"
-              @click="nav = !nav"
               :to="{ name: item.pathname }"
             >
               <span> {{ item.name }} </span>
@@ -64,29 +62,29 @@ export default {
       nav: false,
       items: [
         {
-          name: "首頁",
-          pathname: "Home",
-          en: "home",
+          name: '首頁',
+          pathname: 'Home',
+          en: 'home',
         },
         {
-          name: "關於LOGOSTAR",
-          pathname: "About",
-          en: "about",
+          name: '關於LOGOSTAR',
+          pathname: 'About',
+          en: 'about',
         },
         {
-          name: "服務介紹",
-          pathname: "Service",
-          en: "service",
+          name: '服務介紹',
+          pathname: 'Service',
+          en: 'service',
         },
         {
-          name: "商標小知識",
-          pathname: "Trademark",
-          en: "trademark",
+          name: '商標小知識',
+          pathname: 'Trademark',
+          en: 'trademark',
         },
         {
-          name: "聯繫我們",
-          pathname: "Order",
-          en: "contact",
+          name: '聯繫我們',
+          pathname: 'Order',
+          en: 'contact',
         },
       ],
     };

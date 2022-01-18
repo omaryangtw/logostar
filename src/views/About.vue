@@ -7,7 +7,7 @@
     </div>
   </div>
 
-  <div class="mt-4 max-w-screen-lg w-10/12 mx-auto">
+  <div class="mt-4 mb-4 max-w-screen-lg w-10/12 mx-auto">
     <div class="grid grid-cols-3 gap-6">
       <div
         class="
@@ -24,7 +24,7 @@
         <br />
         資深企業法務
         <br />
-        <h6 class="text-sm text-right">-星塵智權有限公司</h6>
+        <h6 class="text-sm">-星塵智權有限公司</h6>
       </div>
       <div class="leading-7 col-span-3 md:col-span-2">
         <h5 class="font-bold text-lg">
@@ -41,8 +41,8 @@
         Market！LOGOSTAR攜手專業平面設計師、CIS企業識別設計師，共同打造「從Logo設計到商標註冊」的快速機制，全方位捍衛您的事業心血，別讓侵權疏忽、遭人仿冒商標成為您的憾事。
       </div>
     </div>
-
-    <div class="mt-8 grid grid-cols-3 gap-6">
+    <hr class="my-4" />
+    <div class="grid grid-cols-3 gap-6">
       <div
         class="
           col-span-3
@@ -56,12 +56,10 @@
         <img class="w-full" src="../assets/25re.jpg" />
         穩健踏實、專注智慧財產的商務律師
         <br />
-        <h6 class="text-sm text-right">-正宏律師事務所</h6>
+        <h6 class="text-sm">-正宏律師事務所</h6>
       </div>
       <div class="leading-7 col-span-3 md:col-span-2">
-        <h5 class="font-bold text-lg md:text-xl text-blue-700">
-          『堅持推出最好的產品』職人精神
-        </h5>
+        <h5 class="font-bold text-lg">『堅持推出最好的產品』職人精神</h5>
 
         <br />
         LOGO是您事業的門面，是傳達您事業理念的重要載體，其重要性不言而喻！因此唯有「最好」，不容妥協！
@@ -118,7 +116,9 @@
           <div class="border-b p-2">
             <div class="align-baseline flex">
               <img src="../assets/number1.png" alt="" class="h-16" />
-              <span class="text-3xl text-purple-800">設計諮詢與分享</span>
+              <span class="text-2xl md:text-3xl text-purple-800"
+                >設計諮詢與分享</span
+              >
             </div>
             <div>
               您不用事先設限，可盡情與我們分享您的品牌故事與理念，LOGOSTAR會引導傾聽您對設計的需求與期待，理解您的行銷想法及布局，以及想置放的元素。
@@ -127,7 +127,9 @@
           <div class="p-2 border-b lg:border-0">
             <div class="align-baseline flex">
               <img src="../assets/number2.png" alt="" class="h-16" />
-              <span class="text-3xl text-purple-800">事前調查與實施</span>
+              <span class="text-2xl md:text-3xl text-purple-800"
+                >事前調查與實施</span
+              >
             </div>
             <div>
               工作天數約三個工作天，在設計師瞭解您需求後，第一時間商標代理人會進行商標資料庫檢索，同步了解LOGO需求背景，給予最適合的商標商品類別註冊建議，再進入設計程序。
@@ -137,7 +139,9 @@
         <div class="p-2 border-b lg:border-r">
           <div class="align-baseline flex">
             <img src="../assets/number3.png" alt="" class="h-16" />
-            <span class="text-3xl text-purple-800">繪製初稿與溝通</span>
+            <span class="text-2xl md:text-3xl text-purple-800"
+              >繪製初稿與溝通</span
+            >
           </div>
           <div>
             設計師彙整您的需求與商標代理人回饋，將進入草稿設計，接著與您再做進一步細節溝通，同步協助您釐清行銷目的、銷售場域、平台、風格與色調，找到明確的設計方向，並繪製3款合適的logo提案給您。
@@ -146,7 +150,9 @@
         <div class="p-2 border-b lg:border-t">
           <div class="align-baseline flex">
             <img src="../assets/number4.png" alt="" class="h-16" />
-            <span class="text-3xl text-purple-800">提案調整與修改</span>
+            <span class="text-2xl md:text-3xl text-purple-800"
+              >提案調整與修改</span
+            >
           </div>
           <div>
             在設計師提案中，將會向您介紹設計構想與您商品與服務的相關性，不論您滿意與否，皆可針對提案的內容、配色等細節表達意見，設計師會傾聽及調和您的想法，對設計稿件進行調整。
@@ -155,7 +161,9 @@
         <div class="p-2 border-b lg:border-b-0 lg:border-r">
           <div class="align-baseline flex">
             <img src="../assets/number5.png" alt="" class="h-16" />
-            <span class="text-3xl text-purple-800">完稿到商標註冊</span>
+            <span class="text-2xl md:text-3xl text-purple-800"
+              >完稿到商標註冊</span
+            >
           </div>
           <div>
             由您確認LOGO定稿，後續可再做小幅度的調整；確認無誤後簽立校稿確認單，我們將立刻進行商標申請註冊（註冊核准時程約6個月），並等待商標註冊完成。
@@ -163,7 +171,7 @@
         </div>
         <div class="p-2">
           <div class="align-baseline flex">
-            <span class="text-3xl text-purple-800">提醒您：</span>
+            <span class="text-2xl md:text-3xl text-purple-800">提醒您：</span>
           </div>
           <br />
           <div>
