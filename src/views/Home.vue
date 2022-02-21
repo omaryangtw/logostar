@@ -375,6 +375,7 @@
           <div
             class="
               flex flex-col
+              gap-x-2
               md:flex-row
               divide-y
               md:divide-y-0 md:space-x-4
@@ -415,6 +416,7 @@
           <div
             class="
               flex flex-col
+              gap-x-2
               md:flex-row
               divide-y
               md:divide-y-0 md:space-x-4
@@ -425,7 +427,7 @@
                 <img
                   class="md:max-w-sm"
                   alt="胡志青"
-                  src="../assets/23re.jpg"
+                  src="../assets/23re.webp"
                 />
               </div>
             </div>

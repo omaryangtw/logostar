@@ -19,7 +19,7 @@
           md:text-xl
         "
       >
-        <img class="w-full" src="../assets/23re.jpg" />
+        <img class="w-full" src="../assets/23re.webp" />
         商標代理人
         <br />
         資深企業法務
