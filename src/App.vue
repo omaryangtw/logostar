@@ -8,7 +8,9 @@
               Logo設計+商標申請 全新的整合服務
             </span>
           </div>
-          <img class="w-48" alt="logo" src="./assets/img1.png" />
+          <router-link to="/">
+            <img class="w-48" alt="logo" src="./assets/img1.png" />
+          </router-link>
         </div>
       </div>
     </div>
